@@ -43,7 +43,11 @@ The model processes both text and image inputs and produces contextual captions.
 
 LLaVA-Image-Captioning-System/
 │
+
 ├── llava.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
