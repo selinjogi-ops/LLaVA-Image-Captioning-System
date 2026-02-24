@@ -42,6 +42,7 @@ The model processes both text and image inputs and produces contextual captions.
 # Project Structure
 
 LLaVA-Image-Captioning-System/
+
 │
 
 ├── llava.py
@@ -51,3 +52,93 @@ LLaVA-Image-Captioning-System/
 ├── README.md
 
 └── .gitignore
+
+# Installation
+
+**1.Install Ollama**
+
+Download and install Ollama from the official website.
+
+After installation, pull the LLaVA model:
+
+ollama pull llava
+
+**2️.Clone Repository**
+
+git clone https://github.com/your-username/LLaVA-Image-Captioning-System.git
+
+cd LLaVA-Image-Captioning-System
+
+**3️.Install Python Dependency**
+
+pip install -r requirements.txt
+
+**requirements.txt**
+
+ollama
+
+**Usage**
+
+Modify the image path in llava.py:
+
+image_path = r"C:\Users\Pictures\apple.jpg"
+
+Run the script:
+
+python llava.py
+
+Example prompt:
+
+"Describe this image in one sentence."
+
+# Hardware Requirements
+
+Minimum:
+
+* 8 GB RAM
+
+* CPU-based inference supported
+
+Recommended:
+
+* 16 GB RAM
+
+* GPU acceleration (if available)
+
+Model size depends on the specific LLaVA variant downloaded via Ollama.
+
+# Example Output
+
+=== MODEL OUTPUT ===
+
+A red apple placed on a wooden table under natural lighting.
+
+# Applications
+
+* Local multimodal AI experimentation
+
+* Offline image captioning
+
+* Educational AI demonstrations
+
+* Prototyping vision-language workflows
+
+# Future Improvements
+
+* Batch image processing
+
+* Live camera integration
+
+* GUI interface
+
+* Integration with other VLMs (BLIP, Moondream)
+
+* Web API deployment
+
+# Author
+
+Selin Jogi Chittilappilly
+
+B.Voc Mathematics & Artificial Intelligence
+
+AI Intern
