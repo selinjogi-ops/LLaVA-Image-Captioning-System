@@ -29,7 +29,7 @@ LLaVA combines:
 
 * A vision encoder (extracts image features)
 
-*A language model (generates text)
+* A language model (generates text)
 
 * Cross-modal alignment between visual and textual representations
 
